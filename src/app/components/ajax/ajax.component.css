@@ -1,0 +1,11 @@
+table, th, td {
+    border: 1px solid black;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  tbody{
+      background-color: rgb(178, 214, 18)
+  }

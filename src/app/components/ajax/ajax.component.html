@@ -1,0 +1,28 @@
+<p>ajax works!
+</p>
+
+<table>
+    <thead>
+        <tr>
+            <th
+                *ngFor="let key of keysArr">
+                {{key}}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr
+            *ngFor="let i of myJsonData">
+            <td>{{i.id}}
+            </td>
+            <td>{{i.first_name}}
+            </td>
+            <td>{{i.last_name}}
+            </td>
+            <td>{{i.email}}
+            </td>
+            <td>{{i.gender}}
+            </td>
+        </tr>
+    </tbody>
+</table>
